@@ -1,0 +1,21 @@
+.index {
+    background: green;
+}
+
+.etiquetas {
+    background-image: url(./assets/img/foto1.jpg) ;
+}
+.img1 {
+    width: 300px
+}
+ul{background: goldenrod;}
+.link {
+    display: block;
+    background: goldenrod;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.link:hover {
+    background: #125C13;
+}

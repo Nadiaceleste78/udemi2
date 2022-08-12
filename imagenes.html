@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+</head>
+<body>
+    <h2>Imagenes</h2>
+    <figure> <!--esta etiquieta sirve para contener y enmarcar imagenes-->
+        <img src="https://acortar.link/wrRvlh" alt="NO hay ninguna imagenes" width="200px">
+        <img class= "img1" src="./assets/img/foto1.jpg" alt="NO hay ninguna imagenes" width="200px">
+        <br>
+        <figcaption>Imagen de Delorean</figcaption><!--esta etiqueta sirve para colocar el nombre a una imagen-->
+    </figure>
+    <picture> <!-- se usa en imagenes, audos y videos: esta etiqueta sirve para adaptar las imagenes a distintos dispositivos (para el resposive)-->
+            <source srcset="./assets/img/foto4Marti.jpg" media="(min-width:900px)">
+            <source srcset="./assets/img/foto3Delorean.jpg" media="(min-width:800px)">
+            <img src="./assets/img/foto2Doc.jpg"width="200px" alt="">
+    </picture>
+</body>
+</html>
